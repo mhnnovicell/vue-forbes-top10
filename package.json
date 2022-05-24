@@ -1,0 +1,23 @@
+{
+  "name": "test-charts-vue",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/motion": "^2.0.0-beta.12",
+    "chart.js": "^3.7.1",
+    "vue": "^3.2.25",
+    "vue-chart-3": "^3.1.8",
+    "vue-chartjs": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  }
+}
